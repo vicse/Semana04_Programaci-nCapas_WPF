@@ -12,7 +12,7 @@ namespace Data
     static class SQLHelper
     {
               
-        public static string Connection { get; } = "Data Source=DESKTOP-5TMV4N9\\SQLEXPRESS;" + "Initial Catalog=Neptuno;Integrated Security=true";
+        public static string Connection { get; } = "Data Source=.;Initial Catalog=Neptuno;Integrated Security=true";
         /// <summary> 
         /// Set the connection, command, and then execute the command with non query. 
         /// </summary> 
